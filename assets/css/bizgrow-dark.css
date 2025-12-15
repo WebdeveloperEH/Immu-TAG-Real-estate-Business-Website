@@ -1,0 +1,111 @@
+body,
+body.boxed-wrapper .page-wrapper,
+.stricky-header.main-menu,
+.services-one__hover-contentm,
+.why-choose-one {
+    background-color: #2F3847;
+}
+
+.main-menu__logo,
+.main-menu__logo:before,
+.main-slider .item,
+.services-one,
+.why-choose-one__count-single,
+.why-choose-one__experience-box::before,
+.project-one__content-inner::before,
+.work-process__content,
+.pricing-one__single,
+.blog-one__content {
+    background-color: var(--bizgrow-black);
+}
+
+.main-menu__logo a img {
+    filter: invert(1);
+}
+
+.main-menu .main-menu__list>li>a,
+.stricky-header .main-menu__list>li>a,
+.main-menu .main-menu__list>li.dropdown>a:after,
+.main-slider__title,
+.section-title__tagline,
+.section-title__title,
+.about-one__points li>h3,
+.services-one__hover-title a,
+.services-one__btn,
+.why-choose-one__count h3,
+.why-choose-one__points-content h3,
+.work-process__title a,
+.work-process__text,
+.blog-one__title a,
+.blog-one__btn {
+    color: var(--bizgrow-white);
+}
+
+.about-one__text,
+.about-one__points li>p,
+.about-one__client-info p,
+.services-one__hover-text,
+.why-choose-one__text,
+.why-choose-one__points-content p {
+    color: #999B9F;
+}
+
+.main-menu .main-menu__list>li.current>a::after,
+.main-menu .main-menu__list>li:hover>a::after,
+.stricky-header .main-menu__list>li.current>a::after,
+.stricky-header .main-menu__list>li:hover>a::after {
+    color: var(--bizgrow-base);
+}
+
+.main-slider__bg {
+    mix-blend-mode: multiply;
+}
+
+.main-slider__btn-1::after {
+    background-color: var(--bizgrow-white);
+}
+
+.main-slider__btn-1:hover {
+    color: var(--bizgrow-black);
+}
+
+.main-slider__btn-2::after {
+    background-color: var(--bizgrow-white);
+}
+
+.main-slider__btn-2:hover {
+    color: var(--bizgrow-black);
+}
+
+.about-one__client-signature img {
+    filter: invert(1);
+}
+
+.services-one__bg {
+    mix-blend-mode: color-burn;
+}
+
+.why-choose-one__shape-1 img {
+    filter: invert(1);
+    opacity: 0.1;
+}
+
+.why-choose-one__counter-shape-1 img {
+    filter: invert(1);
+}
+
+.work-process__content::before {
+    border-right: 21px solid var(--bizgrow-black);
+}
+
+.work-process__shape-1 {
+    filter: invert(1);
+}
+
+.work-process__list li:nth-child(2) .work-process__content::before {
+    border-left: 21px solid var(--bizgrow-black);
+}
+
+.team-one__bg::before {
+    background-color: rgba(var(--bizgrow-black-rgb), .95);
+}
